@@ -9,7 +9,8 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "minimal"
+####theme = "minimal"
+theme = "Ocean"
 
 # Enable users to switch between day and night mode?
 day_night = true
@@ -22,7 +23,7 @@ font = ""
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "L"
+font_size = "M"
 
 ############################
 ## Basic Info
@@ -55,6 +56,7 @@ description = ""
 highlight = true
 highlight_languages = ["r"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
+higilight_style = "vs2015"
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.
@@ -128,7 +130,9 @@ twitter = ""
 
 # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-date_format = "Jan 2, 2006"
+#####date_format = "Jan 2, 2006"
+date_format = "2006/01/02"
+
 #   Examples: "3:04 pm" or "15:04"
 time_format = "3:04 PM"
 
@@ -158,6 +162,8 @@ link_authors = true
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
 plugins_js  = []
+
+plugins_css = ["custom"]
 
 # Avatars.
 # An avatar is an image that appears next to a user's name.
