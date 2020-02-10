@@ -1,5 +1,5 @@
 baseURL = "https://r-kato.github.io"
 languageCode = "ja"
 defaultContentLanguage = "en-us"
-title = "r-kato New Hugo Site"
+title = "r-kato Portfolio Website"
 theme = "academic"
